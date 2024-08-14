@@ -8,7 +8,7 @@ function Header() {
       <Navbar />
       <div className="container">
         <div className="info wow fadeInUp slow">
-          <h1 className=""> GUBBI Interactive app <span> for business. </span> </h1>
+          <h1 className=""> GUBBI pAIy Interactive app <span> for cryptocurrencies. </span> </h1>
           <div className="btns">
             <a href="#"> <img src="/home_4/assets/img/header/apple.svg" alt="" /> </a>
             <a href="#"> <img src="/home_4/assets/img/header/play.svg" alt="" /> </a>
