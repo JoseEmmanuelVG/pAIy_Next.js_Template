@@ -1,9 +1,9 @@
 "use client";
-import React, { useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-function LoadingScreen() {
-  const params = useSearchParams()
+function LoadingScreenContent() {
+  const params = useSearchParams();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -55,4 +55,12 @@ function LoadingScreen() {
   )
 }
 
-export default LoadingScreen
+function LoadingScreen() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LoadingScreenContent />
+    </Suspense>
+  );
+}
+
+export default LoadingScreen;
