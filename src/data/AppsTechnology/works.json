@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Explore ideas faster with <BR> animation presets",
-    "subTitle": "Flexibility",
-    "image": "/home_4/assets/img/works/1.png"
+    "title": "Voice navigation in <BR>indigenous dialects",
+    "subTitle": "Accesibilidad",
+    "image": "/home_4/assets/img/works/voice_navigation.png"
   },
   {
     "id": 2,
-    "title": "Fraud. No longer your problem <BR> with business app",
-    "subTitle": "Easy To Use",
-    "image": "/home_4/assets/img/works/2.png"
+    "title": "Tokenization of real assets <BR>for loans.",
+    "subTitle": "Empoderamiento Económico",
+    "image": "/home_4/assets/img/works/tokenization.png"
   },
   {
     "id": 3,
-    "title": "Detection is guaranteed to <BR> keep you covered with 100% of <BR> chargeback protection.",
-    "subTitle": "Business Growth",
-    "image": "/home_4/assets/img/works/3.png"
+    "title": "Access to financial services <BR>from rural areas",
+    "subTitle": "Inclusión Financiera",
+    "image": "/home_4/assets/img/works/financial_access.png"
   }
 ]

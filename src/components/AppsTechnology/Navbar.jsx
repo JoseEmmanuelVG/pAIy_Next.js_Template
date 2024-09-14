@@ -11,10 +11,11 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light tc-navbar-style4">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img src="/home_4/assets/img/logo.png" alt="" className="logo lt_item" />
-          <img src="/home_4/assets/img/logo_lt.png" alt="" className="logo dr_item" />
-        </a>
+      <a className="navbar-brand" href="#">
+        <img src="/home_4/assets/img/logoGUBBI_PRO.png" alt="Gubbi Logo" className="logo lt_item" style={{ width: '100px', height: 'auto' }} />
+        <img src="/home_4/assets/img/logoGUBBI_Lt_PRO.png" alt="Gubbi Logo" className="logo dr_item" style={{ width: '100px', height: 'auto' }} />
+      </a>
+
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -38,7 +39,7 @@ function Navbar() {
             </li>
           </ul>
           <div className="nav-side">
-            <a href="#" className="text-uppercase text-decoration-underline"> get free demo </a>
+            <a href="https://devpost.com/software/gubbi-pay?ref_content=my-projects-tab&ref_feature=my_projects" className="text-uppercase text-decoration-underline"> get free demo </a>
             <div className="btn_wrapper d-inline-block">
               <a className="canvas-btn-style3 ms-3 side_menu_btn active btn-item" onClick={openSideMenu}>
                 <i className="las la-grip-lines"></i>

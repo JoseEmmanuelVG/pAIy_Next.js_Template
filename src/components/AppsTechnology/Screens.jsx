@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 //= Modules
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
@@ -20,7 +20,7 @@ function Screens() {
       <div className="container">
         <div className="title text-center" data-speed="0.5" data-lag="0.5">
           <h2 className="fsz-60">
-            Get up to <span className="color-blue1"> $250 </span> in statement <br /> credits automatically applied to your account <br /> every year by using your Swak App
+            Explore <span className="color-blue1"> Gubbi's Features </span> that <br /> empower rural communities with <br /> financial access and security
           </h2>
         </div>
         <div className="screens-content">
@@ -31,17 +31,17 @@ function Screens() {
                   <Swiper {...swiperOptions} style={{ overflow: 'visible' }}>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/1.png" alt="" />
+                        <img src="/home_4/assets/img/screens/UI_voice_navigation.jpg" alt="Voice Navigation" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/2.png" alt="" />
+                        <img src="/home_4/assets/img/screens/4.jpg" alt="Asset Tokenization" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/3.png" alt="" />
+                        <img src="/home_4/assets/img/screens/5.jpg" alt="Remittance Capture" />
                       </div>
                     </SwiperSlide>
                   </Swiper>
@@ -52,17 +52,17 @@ function Screens() {
                   <Swiper {...swiperOptions} style={{ overflow: 'visible' }}>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/4.png" alt="" />
+                        <img src="/home_4/assets/img/screens/5.jpg" alt="Staking" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/5.png" alt="" />
+                        <img src="/home_4/assets/img/screens/UI_multichain_payments.jpg" alt="Multichain Payments" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/6.png" alt="" />
+                        <img src="/home_4/assets/img/screens/UI_wallet.jpg" alt="Wallet Interface" />
                       </div>
                     </SwiperSlide>
                   </Swiper>
@@ -73,17 +73,17 @@ function Screens() {
                   <Swiper {...swiperOptions} style={{ overflow: 'visible' }}>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/3.png" alt="" />
+                        <img src="/home_4/assets/img/screens/4.jpg" alt="Remittance Capture" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/2.png" alt="" />
+                        <img src="/home_4/assets/img/screens/6.jpg" alt="Asset Tokenization" />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="img img-cover">
-                        <img src="/home_4/assets/img/screens/1.png" alt="" />
+                        <img src="/home_4/assets/img/screens/UI_voice_navigation.jpg" alt="Voice Navigation" />
                       </div>
                     </SwiperSlide>
                   </Swiper>

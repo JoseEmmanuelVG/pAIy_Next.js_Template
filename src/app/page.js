@@ -19,7 +19,7 @@ import Blog from "@/components/AppsTechnology/Blog";
 import Footer from "@/components/AppsTechnology/Footer";
 
 export const metadata = {
-  title: 'Swak - Apps Technology',
+  title: 'GUBBI pAIy App',
   icons: {
     icon: "/home_4/assets/img/fav2.png",
     shortcut: "/home_4/assets/img/fav2.png",
@@ -60,13 +60,20 @@ export default function Home4() {
       </div>
       <MouseCursor />
       <ScrollToTop />
+      
       {/* Page Scripts */}
       <Script src="/common/assets/js/lib/bootstrap.bundle.min.js" strategy="lazyOnload" />
-      <Script src="/common/assets/js/gsap_lib/gsap.min.js" strategy="lazyOnload" />
-      <Script src="/common/assets/js/gsap_lib/ScrollSmoother.min.js" strategy="lazyOnload" />
-      <Script src="/common/assets/js/gsap_lib/ScrollTrigger.min.js" strategy="lazyOnload" />
-      <Script src="/common/assets/js/gsap_lib/SplitText.min.js" strategy="lazyOnload" />
+      
+      {/* GSAP Scripts */}
+      <Script src="/common/assets/js/gsap_lib/gsap.min.js" strategy="beforeInteractive" />
+      <Script src="/common/assets/js/gsap_lib/ScrollTrigger.min.js" strategy="afterInteractive" />
+      <Script src="/common/assets/js/gsap_lib/ScrollSmoother.min.js" strategy="afterInteractive" />
+      <Script src="/common/assets/js/gsap_lib/SplitText.min.js" strategy="afterInteractive" />
+      
+      {/* Common JS */}
       <Script src="/common/assets/js/common_js.js" strategy="lazyOnload" />
+
+      {/* Home-specific JS */}
       <Script src="/home_4/assets/js/home_4_scripts.js" strategy="lazyOnload" />
     </body>
   )

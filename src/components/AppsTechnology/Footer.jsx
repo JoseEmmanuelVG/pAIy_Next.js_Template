@@ -2,85 +2,49 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="tc-footer-style4">
-      <div className="container">
-        <div className="footer-content">
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="links-item mb-60">
-                <h5 className="sub-title fsz-24 mb-30"> Work Inquiry </h5>
-                <ul className="links">
-                  <li> <a href="#"> contact@Swak-app.com </a> </li>
-                  <li> <a href="#"> (054) 8687 90 50 </a> </li>
-                </ul>
+          <footer className="tc-footer-style4">
+        <div className="container">
+          <div className="footer-content">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="links-item mb-60">
+                  <h5 className="sub-title fsz-24 mb-30"> Contacto </h5>
+                  <ul className="links">
+                    <li> <a href="#"> contact@gubbi-ai.com </a> </li>
+                    <li> <a href="#"> +52 (XXX) XXX-XXXX </a> </li>
+                  </ul>
+                </div>
               </div>
-              <div className="links-item mb-60">
-                <h5 className="sub-title fsz-24 mb-30"> London </h5>
-                <ul className="links">
-                  <li> <a href="#"> 205B Shaftesbury Avenuem </a> </li>
-                  <li> <a href="#"> London SE15 4BQ UK </a> </li>
-                </ul>
+              <div className="col-lg-4">
+                <div className="links-item mb-60">
+                  <h5 className="sub-title fsz-24 mb-30"> Useful Links </h5>
+                  <ul className="links">
+                    <li> <a href="https://github.com/RoberVH/pangolin-test01"> GitHub Repo 1 </a> </li>
+                    <li> <a href="https://github.com/JoseEmmanuelVG/Gubbi-pAIy---Frutal-Web-House-2024-ETH-MX"> GitHub Repo 2 </a> </li>
+                    <li> <a href="https://www.canva.com/design/DAGQCoTcIdc/-_pf88aXAtFqz5CbU80P1Q/edit?utm_content=DAGQCoTcIdc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> Presentation  </a> </li>
+                    <li> <a href="https://devpost.com/software/gubbi-pay?ref_content=my-projects-tab&ref_feature=my_projects"> Gubbi Pay Project DEVPOST </a> </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="links-item mb-60">
-                <h5 className="sub-title fsz-24 mb-30"> Open Position </h5>
-                <ul className="links">
-                  <li> <a href="#"> UI/UX Website Designer </a> </li>
-                  <li> <a href="#"> Senior Front-end WordPress Developer </a> </li>
-                </ul>
-              </div>
-              <div className="links-item mb-60">
-                <h5 className="sub-title fsz-24 mb-30"> Links </h5>
-                <ul className="links">
-                  <li> <a href="#"> Terms & Conditions </a> </li>
-                  <li> <a href="#"> Privacy Policy </a> </li>
-                </ul>
+              <div className="col-lg-4">
+                <div className="links-item mb-60">
+                  <h5 className="sub-title fsz-24 mb-30"> Social Networking </h5>
+                  <div className="social-links">
+                    <a href="https://x.com/GubbiPay"> Twitter - X </a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="links-item mb-60">
-                <h5 className="sub-title fsz-24 mb-30"> Other Pages </h5>
-                <ul className="links">
-                  <li className="half-link"> <a href="#"> About Us </a> <a href="#"> Refund Policy </a> </li>
-                  <li className="half-link"> <a href="#"> Services </a> <a href="#"> Product Status </a> </li>
-                  <li className="half-link"> <a href="#"> Insights </a> <a href="#"> Design Kit </a> </li>
-                  <li className="half-link"> <a href="#"> Price & Plan </a> <a href="#"> Publication </a> </li>
-                  <li className="half-link"> <a href="#"> T & C </a> </li>
-                </ul>
+          </div>
+          <div className="foot">
+            <div className="row">
+              <div className="col-lg-5">
+                <p> © Gubbi AI 2024 - All rights reserved.</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="foot">
-          <div className="row">
-            <div className="col-lg-5">
-              <p> © Swak Startup Agency 2023 </p>
-            </div>
-            <div className="col-lg-5">
-              <div className="social-links">
-                <a href="#"> Dribbble </a>
-                <a href="#"> Behance </a>
-                <a href="#"> Instagram </a>
-                <a href="#"> Linkedin </a>
-                <a href="#"> Youtube </a>
-              </div>
-            </div>
-            <div className="col-lg-2 text-lg-end d-none d-lg-block">
-              <div className="dropdown">
-                <button className="border-0 bg-transparent p-0 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i className="ti-world me-1"></i> ENG
-                </button>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a className="dropdown-item" href="#">FR</a></li>
-                  <li><a className="dropdown-item" href="#">AR</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
   )
 }
 

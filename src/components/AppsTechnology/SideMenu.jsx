@@ -16,9 +16,9 @@ function SideMenu() {
         </a>
         <div className="content">
           <div className="logo">
-            <a href="#" className="w-100">
-              <img src="/home_4/assets/img/logo.png" alt="" className="lt_item" />
-              <img src="/home_4/assets/img/logo_lt.png" alt="" className="dr_item" />
+            <a href="#" className="w-80">
+              <img src="/home_4/assets/img/logoGUBBI_Lt_PRO.png" alt="" className="lt_item" />
+              <img src="/home_4/assets/img/logoGUBBI_Lt_PRO.png" alt="" className="dr_item" />
             </a>
           </div>
           <div className="pages_links">
@@ -36,10 +36,10 @@ function SideMenu() {
             <h5> get in touch </h5>
             <div className="row">
               <div className="col-lg-6">
-                <a href="#"> <i className="la la-phone-alt me-2"></i> (+23) 5535 68 68 </a>
+                <a href="#"> <i className="la la-phone-alt me-2"></i> https://devpost.com/software/gubbi-pay?ref_content=my-projects-tab&ref_feature=my_projects </a>
               </div>
               <div className="col-lg-6">
-                <a href="#"> <i className="la la-envelope me-2 mt-4 mt-lg-0"></i> contact@Swak.co </a>
+                <a href="#"> <i className="la la-envelope me-2 mt-4 mt-lg-0"></i> contact GUBBI </a>
               </div>
             </div>
           </div>

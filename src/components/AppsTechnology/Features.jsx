@@ -48,13 +48,15 @@ function Features() {
           <div className="col-lg-5">
             <div className="info-side">
               <div className="content">
-                <p className="fsz-16 sub_font text-uppercase text-decoration-underline mb-20"> How It Works </p>
-                <h2 className="fsz-60 mb-30"> Reach out & let’s get to know each other </h2>
-                <div className="text color-666 fsz-14"> As a leading <strong className="color-000"> app showcase </strong> in Paris, we look to engage with our <br /> clients beyond the conventional relationship. </div>
+                <p className="fsz-16 sub_font text-uppercase text-decoration-underline mb-20"> How Gubbi Works </p>
+                <h2 className="fsz-60 mb-30"> Discover Gubbi's Key Features </h2>
+                <div className="text color-666 fsz-14">
+                  Gubbi provides seamless voice navigation in indigenous languages, tokenization of real-world assets, and the ability to perform cross-chain transactions and payments.
+                </div>
                 <div className="button_su mt-80">
                   <span className="su_button_circle bg-light1 desplode-circle"></span>
                   <a href="#" className="butn button_su_inner bg-transparent">
-                    <span className="button_text_container fsz-16 text-uppercase"> more features </span>
+                    <span className="button_text_container fsz-16 text-uppercase"> More Features </span>
                   </a>
                 </div>
               </div>
@@ -68,7 +70,7 @@ function Features() {
                     <div className="features-card">
                       <div className="cont">
                         <div className="icon">
-                          <img src={item.icon} alt="" />
+                          <img src={item.icon} alt={item.title} />
                         </div>
                         <div className="info">
                           <h2 className="num"> {item.num} </h2>

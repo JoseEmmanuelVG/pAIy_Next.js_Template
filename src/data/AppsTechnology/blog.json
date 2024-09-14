@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "tag": "news",
+    "tag": "Blockchain",
     "date": "2 days ago",
     "author": "Alonso",
-    "picture": "/home_4/assets/img/testi_cl1.jpg",
-    "image": "/home_4/assets/img/blog/1.jpg",
-    "title": "Castro nominated for the Branding of the <BR> Year 2017 by CSSDA"
+    "picture": "/home_4/assets/img/GUBBI_JEVG.png",
+    "image": "/home_4/assets/img/blog/1_GUBBI.png",
+    "title": "How Blockchain Technology is Transforming Financial Inclusion in Rural Communities"
   },
   {
     "id": 2,
-    "tag": "news",
+    "tag": "Tokenization",
     "date": "3 days ago",
-    "image": "/home_4/assets/img/blog/2.jpg",
-    "title": "A mobile app, also known as a mobile app"
+    "image": "/home_4/assets/img/blog/2_GUBBI.png",
+    "title": "Tokenizing Real-World Assets: A Gateway to Financial Empowerment"
   },
   {
     "id": 3,
-    "tag": "news",
+    "tag": "Voice Navigation",
     "date": "3 days ago",
-    "image": "/home_4/assets/img/blog/3.jpg",
-    "title": "Software application designed to run..."
+    "image": "/home_4/assets/img/blog/3_GUBBI.png",
+    "title": "Breaking Barriers: Voice Navigation in Indigenous Languages for Financial Services"
   },
   {
     "id": 4,
-    "tag": "news",
+    "tag": "Multichain Payments",
     "date": "3 days ago",
-    "image": "/home_4/assets/img/blog/4.jpg",
-    "title": "Mobile devices such as smartphones"
+    "image": "/home_4/assets/img/blog/4_GUBBI.png",
+    "title": "Enabling Multichain Payments for Rural Economies"
   }
 ]

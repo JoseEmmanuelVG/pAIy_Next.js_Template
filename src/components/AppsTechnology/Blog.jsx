@@ -13,7 +13,7 @@ function Blog() {
       <div className="container">
         <div className="title text-center">
           <p className="fsz-16 sub_font text-uppercase text-decoration-underline mb-20"> Insights </p>
-          <h2 className="fsz-60 mb-80"> Company insights </h2>
+          <h2 className="fsz-60 mb-80"> Financial Inclusion Insights </h2> {/* Cambié el título para reflejar la temática del blog */}
         </div>
         <div className="content wow fadeInUp slow">
           <div className="row">
@@ -76,4 +76,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default Blog;

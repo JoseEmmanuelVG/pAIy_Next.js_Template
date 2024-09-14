@@ -1,27 +1,38 @@
 [
   {
     "id": 1,
-    "light": "/home_4/assets/img/logos/1.png",
-    "dark": "/home_4/assets/img/logos/01.png"
+    "light": "/home_4/assets/img/logos/astar_light.png",
+    "dark": "/home_4/assets/img/logos/astar_dark.png"
   },
   {
     "id": 2,
-    "light": "/home_4/assets/img/logos/2.png",
-    "dark": "/home_4/assets/img/logos/02.png"
+    "light": "/home_4/assets/img/logos/core_light.png",
+    "dark": "/home_4/assets/img/logos/core_dark.png"
   },
   {
     "id": 3,
-    "light": "/home_4/assets/img/logos/3.png",
-    "dark": "/home_4/assets/img/logos/03.png"
+    "light": "/home_4/assets/img/logos/FRUTAL_WEB_HOUSE.png",
+    "dark": "/home_4/assets/img/logos/eth_mx_dark.png"
   },
   {
     "id": 4,
-    "light": "/home_4/assets/img/logos/4.png",
-    "dark": "/home_4/assets/img/logos/05.png"
+    "light": "/home_4/assets/img/logos/eth_mx_light.png",
+    "dark": "/home_4/assets/img/logos/eth_mx_dark.png"
   },
   {
     "id": 5,
-    "light": "/home_4/assets/img/logos/5.png",
-    "dark": "/home_4/assets/img/logos/05.png"
+    "light": "/home_4/assets/img/logos/meta_pool_light.png",
+    "dark": "/home_4/assets/img/logos/meta_pool_dark.png"
+  },
+  {
+    "id": 6,
+    "light": "/home_4/assets/img/logos/bitte_light.png",
+    "dark": "/home_4/assets/img/logos/bitte_dark.png"
+  },
+  {
+    "id": 7,
+    "light": "/home_4/assets/img/logos/avalanche_light.png",
+    "dark": "/home_4/assets/img/logos/avalanche_dark.png"
   }
+  
 ]

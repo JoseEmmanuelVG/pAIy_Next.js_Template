@@ -15,7 +15,7 @@ function Partners() {
             </a>
           ))}
         </div>
-        <h6 className="text-center fsz-22 mt-50"> Trusted by <span className="color-blue1"> +150 brands </span> </h6>
+        <h6 className="text-center fsz-22 mt-50"> Hackathon sponsors <span className="color-blue1"> Frutal Web House 2024 @ ETH MX </span> </h6>
       </div>
     </section>
   )
